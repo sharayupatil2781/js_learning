@@ -24,3 +24,4 @@ console.log(pincode);
 
 let age = twenty_four;
 console.log(typeof age);
+
