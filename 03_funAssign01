@@ -1,0 +1,49 @@
+console.log("-------------Que 1--------------");
+function display() {
+  console.log("I am enjoying learning JavaScript!");
+}
+
+display();
+
+function show() {
+  console.log("My name is sharayu!");
+}
+
+show();
+
+console.log("-------------Que 2--------------");
+function personalDetails(firstName, lastName, collegeName) {
+  console.log(`My name is ${firstName} ${lastName}`);
+  console.log(`College name: ${collegeName}`);
+}
+
+personalDetails("sharayu", "patil", "bvcoek");
+
+console.log("-------------Que 3--------------");
+function swapValues(no1, no2) {
+  console.log("Before swap....");
+  console.log(`no1: ${no1}  no2: ${no2}`);
+
+  let temp = 0;
+  temp = no1;
+  no1 = no2;
+  no2 = temp;
+
+  console.log("after swap....");
+  console.log(`no1: ${no1}  no2: ${no2}`);
+}
+
+swapValues("Virat", "Anushka");
+swapValues(1000, 2000);
+
+console.log("-------------Que 4--------------");
+function addThreeValues(val1, val2, val3) {
+  let result = val1 + val2 + val3;
+  return result;
+}
+
+let result = addThreeValues(10.23, 600, 40);
+console.log(`Result is: ${result}`);
+
+result = addThreeValues("Hello", "Good", "Morning");
+console.log(`Result is: ${result}`);
