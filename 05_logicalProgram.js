@@ -1,8 +1,20 @@
+//Inside function expression check whether given word is even or odd length
 var result = function (word) {
   //console.log(`Inside function expression...`);
-  result = word.length % 2 == 0 ? "Even" : "ODD";
-  console.log(`Given word ${word} is with ${result} length`);
+  var ret = word.length;
+  return ret % 2 == 0 ? "even length word" : "Odd length word";
 };
 
-result("javascript");
-result("I'am hero");
+//var output = result("Javascript");
+var output = result("I am hero");
+console.log(output);
+
+//write a function expression to check whether the no is multiple of 3 or not
+var multiple = function (no) {
+  var ret = no % 3 == 0 ? "Yes" : "No";
+  return ret;
+};
+
+var ret = multiple(9);
+
+console.log(`${ret}`);

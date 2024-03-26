@@ -15,3 +15,8 @@ console.log(20 < 20);
 console.log(20 <= 20);
 console.log(30 > 30);
 console.log(30 >= 30);
+
+//!=, !==
+let temp1 = 23;
+let temp2 = "23";
+console.log(temp1 !== temp2);
