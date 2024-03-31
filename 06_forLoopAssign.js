@@ -6,17 +6,15 @@ for (i = 5; i <= 15; i++) {
 }
 */
 
-/*
 console.log(`------------- Q 2------------`);
 for (i = 50; i >= 40; i--) {
   console.log(i);
 }
-*/
 
 /*
 console.log(`------------- Q 3------------`);
 let count = 0;
-for (i = 0; count < 15; i++) {
+for (i = 0; count < 15; i++) {                              
   if (i % 2 != 0) {
     console.log(i);
     count++;
@@ -25,7 +23,7 @@ for (i = 0; count < 15; i++) {
 */
 
 /*
-console.log(`------------- Q 3------------`);
+console.log(`------------- Q 4------------`);
 let counter = 0;
 for (i = 0; counter < 10; i++) {
   if (i % 2 == 0) {
@@ -44,10 +42,11 @@ function displayTable(no) {
   }
 }
 
-//displayTable(5);
-displayTable(10);
+displayTable(5);
+//displayTable(10);
 */
 
+/*
 console.log(`------------- Q 7------------`);
 function displayReverse(no) {
   for (i = 10; i >= 1; i--) {
@@ -56,3 +55,4 @@ function displayReverse(no) {
 }
 
 displayReverse(10);
+*/
