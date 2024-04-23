@@ -30,3 +30,10 @@ console.log(
 //first, select the element then change the css!
 const changeCss = document.querySelector(".stack");
 changeCss.style.color = "orange";
+
+//creating an element using JS  - h2
+const h2Element = document.createElement("h2");
+const textNodeProject = document.createTextNode(
+  "Project Name: College management system"
+);
+h2Element.appendChild(textNodeProject);
