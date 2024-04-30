@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem("name","Gajanan");        //we add data in the form of key & value 
+        window.sessionStorage.setItem("age", 34);
+        window.sessionStorage.setItem("city", "pune");
+
+        //to retrieve the data
+        const result = window.sessionStorage.getItem("city");
+        console.log(result);
+    </script>
+</body>
+</html>
