@@ -1,0 +1,9 @@
+//Immediately invoked function expression...
+//(self invoking function expression)
+
+//()()          //() : anonymuous fun , 2nd() : function call
+(function(){
+    console.log(`This is immediately invoked function expression!`);
+})();
+
+//we didn't call the function seperately!
