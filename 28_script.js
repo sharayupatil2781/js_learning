@@ -37,3 +37,43 @@ const textNodeProject = document.createTextNode(
   "Project Name: College management system"
 );
 h2Element.appendChild(textNodeProject);
+
+function eventClick()
+{
+  console.log("hey...he clicked me!");
+}
+
+// const addButton = document.querySelector(".btn");
+    // addButton.addEventListener('click', () => {
+    //   console.log('Add button click!');
+    // });
+  
+
+    // document.querySelector('.btn').addEventListener('click', function(){
+    //   console.log('Add button clicked.');
+    //   //alert('Hey you clicked me.');
+    //   //prompt('enter number: ', 0);  //by default no konta dhakvaycha ahe. = 0
+    //   //console.log(num);
+    //   const result = confirm("are u sure!");
+    //   console.log(result);
+    // });
+
+    const addButton = document.querySelector('#add');
+
+addButton.addEventListener('click', ()=>{
+
+  const num = prompt("Enter the valid number to perform square", 1);
+
+  const elementPara = document.createElement('p');
+
+  const textNodeSquare = document.createTextNode(`Number ${num} and it's square is ${num*num}`)
+
+  elementPara.style.color= 'orange';
+
+  elementPara.appendChild(textNodeSquare)
+
+  const squareResultElement = document.querySelector('.square-result');
+
+  squareResultElement.appendChild(elementPara);
+
+});
